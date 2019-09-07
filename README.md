@@ -51,3 +51,9 @@ If you didn't change the password earlier, the default password is `hypriot`. **
 ```bash
 $ passwd
 ```
+
+Install Pi Hole.
+
+```bash
+curl -sSL https://install.pi-hole.net | bash
+```

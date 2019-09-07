@@ -45,6 +45,15 @@ write_files:
       auth_alg=OPEN
       }
     path: /etc/wpa_supplicant/wpa_supplicant.conf
+  - content: |
+      persistent
+      slaac hardware
+      # static IP configuration:
+      interface wlan0
+      static ip_address=192.168.1.200
+      static routers=192.168.1.1
+      static domain_name_servers=192.168.1.1 8.8.8.8
+    path: /etc/dhcpcd.conf
 
 
 # These commands will be ran once on first boot only

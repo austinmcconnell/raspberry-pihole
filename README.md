@@ -1,6 +1,8 @@
 # Raspberry PiHole Zero
 
-This installation is build on top of [Hypriot OS](https://hypriot.com/) which has Docker pre-installed. Where applicable, it's built with the assumption that Macs will be used to connect/interface with the raspberry pi (e.g. choice of network mount)
+This repo describes how to set up a PiHole on a Raspberry Pi Zero [kit](https://www.adafruit.com/product/3973) using a Mac computer.
+
+The os we will install on the Raspberry Pi Zero is [Hypriot OS](https://hypriot.com/).
 
 ## Flash OS to SD Card
 

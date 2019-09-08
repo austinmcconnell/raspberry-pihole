@@ -10,8 +10,8 @@ Follow the installation instructions [here](https://github.com/hypriot/flash#ins
 ### Download user-data.yaml file
 
 Download the following files:
-- https://github.com/austinmcconnell/raspberry-pihole-zero/blob/master/user-data.yaml.sample
-- https://github.com/austinmcconnell/raspberry-pihole-zero/blob/master/config.txt
+- https://github.com/austinmcconnell/raspberry-pihole/blob/master/user-data.yaml.sample
+- https://github.com/austinmcconnell/raspberry-pihole/blob/master/config.txt
 
 Rename user-data.yaml.sample to user-data.yaml
 
